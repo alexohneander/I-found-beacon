@@ -25,9 +25,9 @@
 - (void)initBeacon {
     NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"];
     self.beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:uuid
-                                                                major:1
-                                                                minor:1
-                                                           identifier:@"com.devfright.myRegion"];
+                                                                major:9576
+                                                                minor:49222
+                                                           identifier:@"Beacon Blue!"];
 }
 
 - (void)setLabels {
