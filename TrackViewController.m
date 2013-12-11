@@ -29,7 +29,7 @@
 }
 
 - (void)initRegion {
-    NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"23542266-18D1-4FE4-B4A1-23F8195B9D39"];
+    NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"];
     self.beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:uuid identifier:@"com.devfright.myRegion"];
     [self.locationManager startMonitoringForRegion:self.beaconRegion];
 }
@@ -65,6 +65,15 @@
     }
     self.rssiLabel.text = [NSString stringWithFormat:@"%i", beacon.rssi];
 }
+
+-(IBAction)switchingBack:(id)sender
+{
+    /* Switching to Main View */
+    MainViewController *mainView=[[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    mainView.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentModalViewController:mainView animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

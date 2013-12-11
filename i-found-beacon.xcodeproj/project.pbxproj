@@ -482,6 +482,7 @@
 				CDAB86121858708800064A54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDAB86131858708800064A54 /* Build configuration list for PBXNativeTarget "i-found-beaconTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				CDAB86151858708800064A54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

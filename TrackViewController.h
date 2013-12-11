@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import "MainViewController.h"
 
 @interface TrackViewController : UIViewController <CLLocationManagerDelegate>
+
+-(IBAction)switchingBack:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UILabel *beaconFoundLabel;
 @property (weak, nonatomic) IBOutlet UILabel *proximityUUIDLabel;

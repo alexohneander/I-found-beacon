@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
+#import "MainViewController.h"
 
 @interface ConfigViewController : UIViewController <CBPeripheralManagerDelegate>
+
+-(IBAction)switchingBack:(id)sender;
 
 @property (strong, nonatomic) CLBeaconRegion *beaconRegion;
 @property (weak, nonatomic) IBOutlet UILabel *uuidLabel;
