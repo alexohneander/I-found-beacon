@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  i-found-beacon
 //
 //  Created by Alex on 12/11/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
 @end

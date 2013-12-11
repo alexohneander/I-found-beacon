@@ -13,15 +13,18 @@
 		CDAB85E91858708800064A54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDAB85E71858708800064A54 /* InfoPlist.strings */; };
 		CDAB85EB1858708800064A54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB85EA1858708800064A54 /* main.m */; };
 		CDAB85EF1858708800064A54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB85EE1858708800064A54 /* AppDelegate.m */; };
-		CDAB85F21858708800064A54 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAB85F01858708800064A54 /* Main_iPhone.storyboard */; };
-		CDAB85F51858708800064A54 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAB85F31858708800064A54 /* Main_iPad.storyboard */; };
-		CDAB85F81858708800064A54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB85F71858708800064A54 /* ViewController.m */; };
 		CDAB85FA1858708800064A54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAB85F91858708800064A54 /* Images.xcassets */; };
 		CDAB86011858708800064A54 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAB86001858708800064A54 /* XCTest.framework */; };
 		CDAB86021858708800064A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAB85DE1858708800064A54 /* Foundation.framework */; };
 		CDAB86031858708800064A54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAB85E21858708800064A54 /* UIKit.framework */; };
 		CDAB860B1858708800064A54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDAB86091858708800064A54 /* InfoPlist.strings */; };
 		CDAB860D1858708800064A54 /* i_found_beaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB860C1858708800064A54 /* i_found_beaconTests.m */; };
+		CDAB861E1858712A00064A54 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB861C1858712A00064A54 /* MainViewController.m */; };
+		CDAB861F1858712A00064A54 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAB861D1858712A00064A54 /* MainViewController.xib */; };
+		CDAB86231858713C00064A54 /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB86211858713C00064A54 /* TrackViewController.m */; };
+		CDAB86241858713C00064A54 /* TrackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAB86221858713C00064A54 /* TrackViewController.xib */; };
+		CDAB86281858716200064A54 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB86261858716200064A54 /* ConfigViewController.m */; };
+		CDAB86291858716200064A54 /* ConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAB86271858716200064A54 /* ConfigViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +48,21 @@
 		CDAB85EC1858708800064A54 /* i-found-beacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "i-found-beacon-Prefix.pch"; sourceTree = "<group>"; };
 		CDAB85ED1858708800064A54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDAB85EE1858708800064A54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CDAB85F11858708800064A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		CDAB85F41858708800064A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		CDAB85F61858708800064A54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CDAB85F71858708800064A54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CDAB85F91858708800064A54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDAB85FF1858708800064A54 /* i-found-beaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "i-found-beaconTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAB86001858708800064A54 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CDAB86081858708800064A54 /* i-found-beaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "i-found-beaconTests-Info.plist"; sourceTree = "<group>"; };
 		CDAB860A1858708800064A54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDAB860C1858708800064A54 /* i_found_beaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = i_found_beaconTests.m; sourceTree = "<group>"; };
+		CDAB861B1858712A00064A54 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		CDAB861C1858712A00064A54 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		CDAB861D1858712A00064A54 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
+		CDAB86201858713C00064A54 /* TrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackViewController.h; path = ../TrackViewController.h; sourceTree = "<group>"; };
+		CDAB86211858713C00064A54 /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackViewController.m; path = ../TrackViewController.m; sourceTree = "<group>"; };
+		CDAB86221858713C00064A54 /* TrackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrackViewController.xib; path = ../TrackViewController.xib; sourceTree = "<group>"; };
+		CDAB86251858716200064A54 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		CDAB86261858716200064A54 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		CDAB86271858716200064A54 /* ConfigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +124,15 @@
 			children = (
 				CDAB85ED1858708800064A54 /* AppDelegate.h */,
 				CDAB85EE1858708800064A54 /* AppDelegate.m */,
-				CDAB85F01858708800064A54 /* Main_iPhone.storyboard */,
-				CDAB85F31858708800064A54 /* Main_iPad.storyboard */,
-				CDAB85F61858708800064A54 /* ViewController.h */,
-				CDAB85F71858708800064A54 /* ViewController.m */,
+				CDAB861B1858712A00064A54 /* MainViewController.h */,
+				CDAB861C1858712A00064A54 /* MainViewController.m */,
+				CDAB861D1858712A00064A54 /* MainViewController.xib */,
+				CDAB86201858713C00064A54 /* TrackViewController.h */,
+				CDAB86251858716200064A54 /* ConfigViewController.h */,
+				CDAB86261858716200064A54 /* ConfigViewController.m */,
+				CDAB86271858716200064A54 /* ConfigViewController.xib */,
+				CDAB86211858713C00064A54 /* TrackViewController.m */,
+				CDAB86221858713C00064A54 /* TrackViewController.xib */,
 				CDAB85F91858708800064A54 /* Images.xcassets */,
 				CDAB85E51858708800064A54 /* Supporting Files */,
 			);
@@ -231,10 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAB85F51858708800064A54 /* Main_iPad.storyboard in Resources */,
+				CDAB86241858713C00064A54 /* TrackViewController.xib in Resources */,
 				CDAB85FA1858708800064A54 /* Images.xcassets in Resources */,
-				CDAB85F21858708800064A54 /* Main_iPhone.storyboard in Resources */,
+				CDAB861F1858712A00064A54 /* MainViewController.xib in Resources */,
 				CDAB85E91858708800064A54 /* InfoPlist.strings in Resources */,
+				CDAB86291858716200064A54 /* ConfigViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAB85F81858708800064A54 /* ViewController.m in Sources */,
+				CDAB86231858713C00064A54 /* TrackViewController.m in Sources */,
 				CDAB85EF1858708800064A54 /* AppDelegate.m in Sources */,
+				CDAB86281858716200064A54 /* ConfigViewController.m in Sources */,
+				CDAB861E1858712A00064A54 /* MainViewController.m in Sources */,
 				CDAB85EB1858708800064A54 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,22 +300,6 @@
 				CDAB85E81858708800064A54 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CDAB85F01858708800064A54 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDAB85F11858708800064A54 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		CDAB85F31858708800064A54 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDAB85F41858708800064A54 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		CDAB86091858708800064A54 /* InfoPlist.strings */ = {
