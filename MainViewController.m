@@ -29,6 +29,25 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+
+-(IBAction)switchToTrackView:(id)sender
+{
+    /* Switching to Track View */
+    TrackViewController *trackView=[[TrackViewController alloc] initWithNibName:@"TrackViewController" bundle:nil];
+    trackView.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentModalViewController:trackView animated:YES];
+}
+
+-(IBAction)switchToConfigView:(id)sender
+{
+    /* Switching to Config View */
+    ConfigViewController *configView= [[ConfigViewController alloc] initWithNibName:@"ConfigViewController" bundle:nil];
+    configView.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentModalViewController:configView animated:YES];
+    
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
